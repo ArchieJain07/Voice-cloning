@@ -18,9 +18,6 @@ from tortoise.utils.audio import load_audio, load_voice, load_voices
 
 tts = TextToSpeech()
 
-import os
-from google.colab import files
-
 # This is the text that will be spoken.
 text = "Let's strive to make the world a better."
 
